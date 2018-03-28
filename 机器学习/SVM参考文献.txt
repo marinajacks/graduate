@@ -5,4 +5,19 @@ SVM的一些参考文献:
 2.这篇文章介绍了一个简单的SVM解决分类的问题,这里进行了详细的介绍.另外,这篇文章给出了简单的例子来讲解这个东西,进行了详细的介
 绍.同时,这个文章对问题进行了简化,简化后的问题直接转化到原始的KKT条件。
     https://blog.csdn.net/on2way/article/details/47729827
-3.这篇文章介绍了求解支持向量机的一种方法,就是SMO算法.
+3.这篇文章介绍了求解支持向量机的一种方法,SMO算法.
+    https://blog.csdn.net/on2way/article/details/47730367
+
+
+
+
+这篇文章详细几乎全部的算法,细节可以进行推敲,稍作整理,便于全局讲解.
+     https://blog.csdn.net/v_july_v/article/details/7624837
+
+
+这篇文章给出了支持向量机的matlab实现,另外,值得注意的是这个实现使用的是编写的M文件来实现的,文中给出了这样的
+	https://blog.csdn.net/TaiJi1985/article/details/75087742
+
+这篇文章给出了详细介绍非线性条件下的matlab的实现,这个实现的是使用matlab自带的内置函数来实现的.
+	https://blog.csdn.net/u010412719/article/details/46794051
+
