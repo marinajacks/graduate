@@ -1,0 +1,9 @@
+clear
+x=xlsread('c:\MATLAB7\work\CUMCM2016-C-Appendix-Chinese.xls','附件2','a3:e150');
+x1=x(:,1);
+y=x(:,5);
+x2=[ones(size(x,1),1),x(:,2:4)];
+[b,bint,r,rint,stats]=regress(y,x2);%线性回归
+b
+bint
+stats
